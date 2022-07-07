@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".datacreate">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="Enter Name"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Surname"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Adress"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Contact"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtGithub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Github"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtLinkedin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Linkedin"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtDegree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Degree"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtCollege"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter College"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Grade"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtSkills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Skill"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Experience"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter language"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtInterest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Interests"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtInstagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Instagram"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter facebook"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/edtTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter twitter"
+                android:textColor="@color/black" />
+
+
+            <Button
+                android:id="@+id/btnView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="view" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

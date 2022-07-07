@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="4"
+    tools:context=".layout">
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/imgResume1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resume1" />
+
+        <ImageView
+            android:id="@+id/imgResume4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgResume1"
+            android:src="@drawable/resume4" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/rel1">
+
+        <ImageView
+            android:id="@+id/imgResume3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgResume2"
+            android:src="@drawable/resume3" />
+
+        <ImageView
+            android:id="@+id/imgResume2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/resume2" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
